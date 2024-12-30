@@ -1,0 +1,168 @@
+/* General Body Style */
+body {
+    background-color: #f8f9fa; /* Light Gray */
+    color: #333; /* Darker text for readability */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1F1F1F; /* Dark gray background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar-brand {
+    color: #333 !important; /* Dark Gray */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+    color: #555 !important; /* Medium Gray */
+    margin: 0 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000 !important; /* Black for hover effect */
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+#introduction {
+    background-color: #eaeaea; /* Lighter Gray */
+    text-align: center;
+}
+
+#introduction h1 {
+    color: #222; /* Slightly darker gray */
+    font-size: 3rem;
+}
+
+#introduction p {
+    color: #555;
+    font-size: 1.25rem;
+}
+
+#introduction a.btn {
+    background-color: #999; /* Neutral Gray */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#introduction a.btn:hover {
+    background-color: #666; /* Darker Gray */
+}
+
+/* About Section */
+#about {
+    background-color: #f4f4f4; /* Very Light Gray */
+}
+
+#about h2 {
+    text-align: center;
+    color: #222;
+}
+
+#about img {
+    border: 2px solid #ccc; /* Border for profile picture */
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #eaeaea;
+}
+
+#portfolio h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item h3 {
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.portfolio-item p {
+    padding: 0 15px 15px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #dcdcdc;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #999; /* Neutral Gray */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #666; /* Darker Gray */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #introduction h1 {
+        font-size: 2rem;
+    }
+
+    #introduction p {
+        font-size: 1rem;
+    }
+
+    #about img {
+        width: 100%;
+    }
+}
